@@ -38,6 +38,7 @@ struct CameraView: View {
                     .frame(width: 60, height: 60)
                     .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                     .animation(.spring())
+                    .tapToPresent(ImageViewer(image: model.photo.image!), .FullScreen)
             } else {
                 RoundedRectangle(cornerRadius: 10)
                     .frame(width: 60, height: 60, alignment: .center)

@@ -26,6 +26,9 @@
 		476B42EA27FBA3E000C30BF3 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B42DF27FBA3E000C30BF3 /* CameraService.swift */; };
 		476B42EF27FBA47100C30BF3 /* TapToPresentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B42ED27FBA47100C30BF3 /* TapToPresentStyle.swift */; };
 		476B42F027FBA47100C30BF3 /* TapToPushStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B42EE27FBA47100C30BF3 /* TapToPushStyle.swift */; };
+		476B42F327FBA5C700C30BF3 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B42F227FBA5C700C30BF3 /* ImageViewer.swift */; };
+		476B42F527FBA65800C30BF3 /* PickerNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B42F427FBA65800C30BF3 /* PickerNavigationView.swift */; };
+		476B42F727FBA68100C30BF3 /* XIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B42F627FBA68100C30BF3 /* XIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		476B42DF27FBA3E000C30BF3 /* CameraService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		476B42ED27FBA47100C30BF3 /* TapToPresentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapToPresentStyle.swift; sourceTree = "<group>"; };
 		476B42EE27FBA47100C30BF3 /* TapToPushStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapToPushStyle.swift; sourceTree = "<group>"; };
+		476B42F227FBA5C700C30BF3 /* ImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewer.swift; sourceTree = "<group>"; };
+		476B42F427FBA65800C30BF3 /* PickerNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerNavigationView.swift; sourceTree = "<group>"; };
+		476B42F627FBA68100C30BF3 /* XIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,7 @@
 		476B42D427FBA3E000C30BF3 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				476B42DD27FBA3E000C30BF3 /* CameraView.swift */,
 				476B42D527FBA3E000C30BF3 /* CameraService+Extensions.swift */,
 				476B42D627FBA3E000C30BF3 /* CameraViewModel.swift */,
 				476B42D727FBA3E000C30BF3 /* CameraPreview.swift */,
@@ -163,7 +170,6 @@
 				476B42DA27FBA3E000C30BF3 /* PhotoCaptureProcessor.swift */,
 				476B42DB27FBA3E000C30BF3 /* Photo.swift */,
 				476B42DC27FBA3E000C30BF3 /* AlertError.swift */,
-				476B42DD27FBA3E000C30BF3 /* CameraView.swift */,
 				476B42DE27FBA3E000C30BF3 /* ImageResizer.swift */,
 				476B42DF27FBA3E000C30BF3 /* CameraService.swift */,
 			);
@@ -173,6 +179,8 @@
 		476B42EB27FBA44F00C30BF3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				476B42F627FBA68100C30BF3 /* XIcon.swift */,
+				476B42F127FBA58F00C30BF3 /* CommonViews */,
 				476B42EC27FBA47100C30BF3 /* ViewModifiers */,
 			);
 			path = Utilities;
@@ -185,6 +193,15 @@
 				476B42EE27FBA47100C30BF3 /* TapToPushStyle.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		476B42F127FBA58F00C30BF3 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				476B42F427FBA65800C30BF3 /* PickerNavigationView.swift */,
+				476B42F227FBA5C700C30BF3 /* ImageViewer.swift */,
+			);
+			path = CommonViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,16 +337,19 @@
 				476B42E627FBA3E000C30BF3 /* Photo.swift in Sources */,
 				476B42E227FBA3E000C30BF3 /* CameraPreview.swift in Sources */,
 				476B42E727FBA3E000C30BF3 /* AlertError.swift in Sources */,
+				476B42F327FBA5C700C30BF3 /* ImageViewer.swift in Sources */,
 				476B42EF27FBA47100C30BF3 /* TapToPresentStyle.swift in Sources */,
 				476B42E827FBA3E000C30BF3 /* CameraView.swift in Sources */,
 				476B42AD27FBA31E00C30BF3 /* ContentView.swift in Sources */,
 				476B42E127FBA3E000C30BF3 /* CameraViewModel.swift in Sources */,
 				476B42E027FBA3E000C30BF3 /* CameraService+Extensions.swift in Sources */,
+				476B42F727FBA68100C30BF3 /* XIcon.swift in Sources */,
 				476B42E527FBA3E000C30BF3 /* PhotoCaptureProcessor.swift in Sources */,
 				476B42EA27FBA3E000C30BF3 /* CameraService.swift in Sources */,
 				476B42F027FBA47100C30BF3 /* TapToPushStyle.swift in Sources */,
 				476B42AB27FBA31E00C30BF3 /* SwiftUICameraApp.swift in Sources */,
 				476B42E927FBA3E000C30BF3 /* ImageResizer.swift in Sources */,
+				476B42F527FBA65800C30BF3 /* PickerNavigationView.swift in Sources */,
 				476B42E427FBA3E000C30BF3 /* CameraService+Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
